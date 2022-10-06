@@ -13,6 +13,7 @@
   --footer-bc: #2f303a;
   --button-bc: #f5f4fa;
 }
+
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   background-color: var(--tertiary-text-color);
@@ -44,6 +45,7 @@ body {
   color: var(--logo-color);
   text-decoration: none;
 }
+
 .colortext {
   font-family: 'Raleway';
   font-style: normal;
@@ -52,6 +54,7 @@ body {
   line-height: 1.2;
   color: var(--accent-color);
 }
+
 .logo-color-footer {
   font-family: 'Raleway';
   font-style: normal;
@@ -65,6 +68,7 @@ body {
 .site-nav-list {
   list-style: none;
 }
+
 .list {
   list-style: none;
 }
@@ -76,30 +80,15 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.link-studio {
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
-}
 
-.link-studio:hover,
-.link-studio:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
-.link-portfolio {
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
-}
-
-.link-portfolio:hover,
-.link-portfolio:focus {
+.link-current {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .link-mail-header {
@@ -132,6 +121,7 @@ body {
 .section-color {
   background-color: var(--page-title-bc);
 }
+
 .page-title {
   width: 696px;
   font-weight: 900;
@@ -167,6 +157,7 @@ body {
 .properties-list {
   list-style: none;
 }
+
 .properties-title {
   font-size: 14px;
   font-weight: 700;
@@ -179,9 +170,11 @@ body {
   line-height: 1.7;
   color: var(--secondary-text-color);
 }
+
 .our-team {
   background-color: #f5f4fa;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -189,9 +182,11 @@ body {
   text-align: center;
   color: var(--primary-text-color);
 }
+
 .image-list {
   list-style: none;
 }
+
 .workers-list {
   list-style: none;
 }
@@ -210,6 +205,7 @@ body {
   text-align: center;
   color: var(--secondary-text-color);
 }
+
 /* footer */
 
 .footer {
@@ -258,8 +254,9 @@ body {
 .button-list {
   list-style: none;
 }
+
 .portfolio-btn {
-  font-family: 'Roboto';
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -267,6 +264,7 @@ body {
   text-align: center;
   color: var(--primary-text-color);
   background-color: var(--button-bc);
+  letter-spacing: 0.03em;
 }
 
 .portfolio-btn:hover,
@@ -280,6 +278,7 @@ body {
 .projects-list {
   list-style: none;
 }
+
 .title {
   font-weight: 700;
   font-size: 18px;
@@ -287,6 +286,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
+
 .text {
   font-size: 16px;
   line-height: 1.8;
